@@ -135,7 +135,7 @@
 					<xs:element name="ShippingCost" minOccurs="0">
 						<xs:annotation>
 							<xs:documentation xml:lang="pl">Pole opcjonalne dla OrderType == VIRTUAL. Natomiast pole jest wymagane w przypadku gdy CartType == MATERIAL.</xs:documentation>
-							<xs:documentation xml:lang="en">Field required for OrderType== VIRTUAL. However, th field is not mandatory for OrderType == MATERIAL.</xs:documentation>
+							<xs:documentation xml:lang="en">Field optional for OrderType == VIRTUAL. However, this field is mandatory for OrderType == MATERIAL.</xs:documentation>
 						</xs:annotation>
 						<xs:complexType>
 							<xs:sequence>
